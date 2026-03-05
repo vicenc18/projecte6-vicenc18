@@ -66,6 +66,12 @@ Administrative Templates →
 Control Panel →
 Personalization
 
+Configura:
+
+Screen saver timeout = 300 (5 minuts)
+Password protect the screen saver = Enabled
+Enable screen saver = Enabled
+
 ![](IMG\8-T07.png)
 
 ![](IMG\9-T07.png)
