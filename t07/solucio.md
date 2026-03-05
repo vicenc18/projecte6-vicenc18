@@ -49,4 +49,27 @@ Password must meet complexity requirements = Disabled
 
 ![](IMG\7-T07.png)
 
+## 1.3. Millora Proactiva (Bonus GPO)
 
+Passos:
+
+Clic dret a l’OU Magatzem → Create new GPO.
+
+Nom: GPO_Bloqueig_Magatzem.
+Edit.
+
+Navega a:
+
+User Configuration →
+Policies →
+Administrative Templates →
+Control Panel →
+Personalization
+
+![](IMG\8-T07.png)
+
+![](IMG\9-T07.png)
+
+![](IMG\10-T07.png)
+
+![](IMG\11-T07.png)
