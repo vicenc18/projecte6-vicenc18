@@ -79,3 +79,30 @@ Enable screen saver = Enabled
 ![](IMG\10-T07.png)
 
 ![](IMG\11-T07.png)
+
+## 2.1. Desplegament de 7zip per al Departament de Gestió
+
+ Requisit:
+Col·loca el fitxer .msi de 7zip en una carpeta compartida accesible (ex: \\SERVER\SOFT\7zip\7zip.msi).
+
+Passos:
+
+Crea una nova GPO: GPO_7zip_Gestio.
+
+Edit.
+Navega:
+Computer Configuration →
+Policies →
+Software Settings →
+Software Installation
+
+
+Clic dret → New → Package…
+
+Selecciona el msi via ruta UNC (\\server\soft\7zip.msi).
+Tria “Assigned”.
+Enllaça la GPO a l’OU Gestio.
+
+![](IMG\12-t07.png)
+
+![](IMG\13-t07.png)
