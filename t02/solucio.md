@@ -13,7 +13,7 @@ verificacions
 sudo systemctl status apache2
 
 '''
-![](t02\img\t02-2.png)
+![](img\t02-2.png)
 
 ### 1.2. Usuari i permisos de publicació
  Resultats mostrant www-data i permisos de /var/www.
