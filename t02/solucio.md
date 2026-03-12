@@ -4,9 +4,13 @@
 ''' bash 
  sudo apt install -y apache2
 '''
+<<<<<<< HEAD
 
 ![](img\1.png)
 
+=======
+![scsc](img\t02-1.png)
+>>>>>>> 39d8631054713dea6e4fa2f702233f935ed92f3c
 
 verificacions
 
