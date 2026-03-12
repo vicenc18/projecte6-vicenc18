@@ -51,3 +51,19 @@ Afegeix:
  Activacio:
 
  ![](img\t02-8.png)
+
+ ## 3) Error 404 personalitzat (mínim un lloc)
+
+ /var/www/projectenexus.test/public_html/errors/404.html:
+ Afegir al vhost (HTTP o millor HTTPS):
+
+![](img\t02-9.png)
+
+## 4) Seguretat i certificats (HTTPS)
+### 4.1. Habilitar SSL i capçaleres
+
+
+sudo a2enmod ssl headers
+sudo systemctl reload apache2
+
+![](img\t02-10.png)
