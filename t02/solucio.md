@@ -4,7 +4,8 @@
 ''' bash 
  sudo apt install -y apache2
 '''
-![scsc](img\t02-1.png)
+
+<img src="img\t02-1.png" alt="5" width="100" height="auto">
 
 verificacions
 
@@ -13,7 +14,7 @@ verificacions
 sudo systemctl status apache2
 
 '''
-![](img\t02-2.png)
+<img src="img\t02-2.png" alt="5" width="100" height="auto">
 
 ### 1.2. Usuari i permisos de publicació
  Resultats mostrant www-data i permisos de /var/www.
