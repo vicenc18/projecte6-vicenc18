@@ -125,6 +125,14 @@ Tria Published.
 ![](IMG\t07-16.png)
 
 
+## 2.3 Pregunta de consultoria: Com crear MSI si només tenim .exe?
+Embalatge/Reempaquetat (Repackaging)
+
+Eines com Advanced Installer, EMCO MSI Package Builder, Pace Suite o RayPack poden capturar instal·lació EXE i generar un MSI (o MSIX).
+Avantatges: MSI nadiu per GPO; personalització amb MST.
+Inconvenient: Llicències i cura amb detecció de canvis.
+
+
 ## 3. Mobilitat d’Usuaris (Perfils Mòbils)
 
 Pasos
