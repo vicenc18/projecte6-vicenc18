@@ -1,1 +1,53 @@
+# t02 instalacio i configuracio de apache i negix
+## 1) Instal·lació i configuració base
+ 
+''' bash 
+ sudo apt install -y apache2
+'''
+![](img\t02-1.png)
 
+verificacions
+
+''' bash 
+
+sudo systemctl status apache2
+
+'''
+![](t02\img\t02-2.png)
+
+### 1.2. Usuari i permisos de publicació
+ Resultats mostrant www-data i permisos de /var/www.
+
+ ![](img\t02-3.png)
+
+ ## 2) VirtualHosts (multidomini)
+ ### 2.1. Estructura de directoris
+
+ sudo mkdir -p /var/www/projectenexus18.test/public_html/errors
+ sudo mkdir -p /var/www/academia18.test/public_html/errors
+
+ ![](img\t02-4.png)
+
+ ### 2.2. Simular DNS amb /etc/hosts
+sudo nano /etc/host
+
+Afegeix:
+
+127.0.0.1   projectenexus18.test
+127.0.0.1   academia18.test
+
+![](img\t02-5.png)
+
+### 2.3. VirtualHosts HTTP (:80) amb redirecció a HTTPS
+
+/etc/apache2/sites-available/projectenexus18.test.conf
+
+![](img\t02-6.png)
+
+ /etc/apache2/sites-available/academia18.test.conf
+
+ ![](img\t02-7.png)
+
+ Activacio:
+
+ ![](img\t02-8.png)
