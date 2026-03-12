@@ -106,3 +106,48 @@ Enllaça la GPO a l’OU Gestio.
 ![](IMG\12-t07.png)
 
 ![](IMG\13-t07.png)
+
+## 2.2 Gerència (grup gerencia) → Firefox publicat (l’usuari decideix)
+Passos (GPMC)
+
+Crea GPO_Software_Gerencia_Firefox.
+Enllaça-la a TransLogic\_Users\gerencia.
+Edita:
+
+User Configuration → Policies → Software Settings → Software installation → New → Package…
+Selecciona \\SRV-FS\software$\firefox\Firefox-x64.msi.
+Tria Published.
+
+![](IMG\t07-14.png)
+
+![](IMG\t07-15.png)
+
+![](IMG\t07-16.png)
+
+
+## 3. Mobilitat d’Usuaris (Perfils Mòbils)
+
+Pasos
+Crear carpeta
+En el servidor de ficheros: crea D:\Perfils.
+
+Compartir (SMB)
+
+Clic derecho → Propiedades → pestaña Compartir → Uso compartido avanzado…
+Marca Compartir esta carpeta.
+Nombre del recurso: perfils$ (el $ la oculta).
+Permisos (Share): Everyone = Full Control.
+Caché / Archivos sin conexión: No files or programs from the share are available offline.
+
+Seguridad NTFS (en la carpeta)
+
+Pestaña Seguridad → Opciones avanzadas.
+Deshabilitar herencia (y convertir si aparece).
+Dejar estas ACE:
+
+Administrators — Full Control — Esta carpeta, subcarpetas y archivos
+SYSTEM — Full Control — Esta carpeta, subcarpetas y archivos
+CREATOR OWNER — Full Control — Solo subcarpetas y archivos
+
+Quitar Users/Domain Users de la carpeta raíz (o sin permisos).
+(Opcional, recomendable) Añadir Authenticated Users con Listar + Crear carpetas solo en “Esta carpeta” para que el usuario pueda crear su subcarpeta en el primer inicio.
