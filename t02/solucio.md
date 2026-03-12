@@ -5,12 +5,17 @@
  sudo apt install -y apache2
 '''
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ![](img\1.png)
 
 =======
 ![scsc](img\t02-1.png)
 >>>>>>> 39d8631054713dea6e4fa2f702233f935ed92f3c
+=======
+
+<img src="img\t02-1.png" alt="5" width="100" height="auto">
+>>>>>>> 3197ceaf44b124e2d7192d032d13b8ab15db8ff4
 
 verificacions
 
@@ -19,7 +24,7 @@ verificacions
 sudo systemctl status apache2
 
 '''
-![](img\t02-2.png)
+<img src="img\t02-2.png" alt="5" width="100" height="auto">
 
 ### 1.2. Usuari i permisos de publicació
  Resultats mostrant www-data i permisos de /var/www.
