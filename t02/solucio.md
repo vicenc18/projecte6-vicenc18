@@ -4,7 +4,7 @@
 ''' bash 
  sudo apt install -y apache2
 '''
-![](img\t02-1.png)
+![scsc](img\t02-1.png)
 
 verificacions
 
