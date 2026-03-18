@@ -14,11 +14,11 @@ Security Settings →
 Account Policies →
 Password Policy
 
-![](IMG\1-T07.png)
+![](IMG/1-T07.png)
 
-![](IMG\2-T07.png)
+![](IMG/2-T07.png)
 
-![](IMG\3-T07.png)
+![](IMG/3-T07.png)
 
 ## 1.2. Política per al grup Gerencia
 
@@ -41,13 +41,13 @@ Minimum password length = 18
 Maximum password age = 28 days
 Password must meet complexity requirements = Disabled
 
-![](IMG\4-T07.png)
+![hola](IMG/4-T07.png)
 
-![](IMG\5-T07.png)
+![](IMG/5-T07.png)
 
-![](IMG\6-T07.png)
+![](IMG/6-T07.png)
 
-![](IMG\7-T07.png)
+![](IMG/7-T07.png)
 
 ## 1.3. Millora Proactiva (Bonus GPO)
 
@@ -72,13 +72,13 @@ Screen saver timeout = 300 (5 minuts)
 Password protect the screen saver = Enabled
 Enable screen saver = Enabled
 
-![](IMG\8-T07.png)
+![](IMG/8-T07.png)
 
-![](IMG\9-T07.png)
+![](IMG/9-T07.png)
 
-![](IMG\10-T07.png)
+![](IMG/10-T07.png)
 
-![](IMG\11-T07.png)
+![](IMG/11-T07.png)
 
 ## 2.1. Desplegament de 7zip per al Departament de Gestió
 
@@ -103,9 +103,9 @@ Selecciona el msi via ruta UNC (\\server\soft\7zip.msi).
 Tria “Assigned”.
 Enllaça la GPO a l’OU Gestio.
 
-![](IMG\12-t07.png)
+![](IMG/12-t07.png)
 
-![](IMG\13-t07.png)
+![](IMG/13-t07.png)
 
 ## 2.2 Gerència (grup gerencia) → Firefox publicat (l’usuari decideix)
 Passos (GPMC)
@@ -118,11 +118,11 @@ User Configuration → Policies → Software Settings → Software installation 
 Selecciona \\SRV-FS\software$\firefox\Firefox-x64.msi.
 Tria Published.
 
-![](IMG\t07-14.png)
+![](IMG/t07-14.png)
 
-![](IMG\t07-15.png)
+![](IMG/t07-15.png)
 
-![](IMG\t07-16.png)
+![](IMG/t07-16.png)
 
 
 ## 2.3 Pregunta de consultoria: Com crear MSI si només tenim .exe?
