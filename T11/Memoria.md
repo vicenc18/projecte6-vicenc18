@@ -18,3 +18,6 @@ Per aquest motiu, Projecte Nexus encarrega al vostre equip tècnic (vosaltres) l
 El sistema també gestionarà diferents rols d’usuari, com ara professors i alumnes. Els professors podran crear cursos, publicar materials, corregir activitats i fer un seguiment detallat del rendiment dels estudiants. Els alumnes, per la seva banda, podran accedir als continguts, completar les activitats proposades, consultar els seus resultats i comunicar-se amb els docents a través d’eines internes de missatgeria o fòrums.
 
 Aquesta plataforma pretén ser una solució robusta i fàcil d’utilitzar, pensada per donar suport a una formació especialitzada dins d’un entorn digital modern, eficient i adaptat a les necessitats reals d’una petita o mitjana organització.
+
+### diagrama
+![](img/hola.png)
